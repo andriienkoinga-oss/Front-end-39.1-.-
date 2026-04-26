@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- форма регистрации -->
+    <form id="regForm">
+      <label for=""
+        ><span>Имя: </span> <input id="regName" required type="text" /></label
+      ><br />
+      <label for=""
+        ><span>Телефон: </span>
+        <input id="regPhone" required type="tel" /></label
+      ><br />
+      <label for=""
+        ><span>Email: </span>
+        <input id="regEmail" required type="email" /></label
+      ><br />
+      <label for=""
+        ><span>Пароль: </span>
+        <input id="regPassword" required type="password" /></label
+      ><br />
+      <button type="submit">Зарегестрироваться</button>
+    </form>
+
+    <!-- форма авторизации -->
+    <form id="authForm">
+      <label for=""
+        ><span>Email: </span>
+        <input id="authEmail" required type="email" /></label
+      ><br />
+      <label for=""
+        ><span>Пароль: </span>
+        <input id="authPassword" required type="password" /></label
+      ><br />
+      <button type="submit">Войти</button>
+    </form>
+<div class="message"></div>
+    
+
+    <script src="./index.js"></script>
+  </body>
+</html>

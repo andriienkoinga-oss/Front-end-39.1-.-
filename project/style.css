@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#regForm{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    background-color: rgb(218, 217, 217);
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(24, 157, 115);
+    color: white;
+    border: 0;
+    margin-top: 10px;
+}
+#authForm{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 50px;
+}
+.message {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+
